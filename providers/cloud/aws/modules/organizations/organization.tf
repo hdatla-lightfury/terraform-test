@@ -1,10 +1,10 @@
 resource "aws_organizations_organization" "org_cloud_lightfurygames" {
   feature_set = var.feature_set //ALWAYS KEEP THIS AS "ALL" FOR LIGHTFURYGAMES
-  // To avoid accidnetal destroying of existing principals and policyt types, we only incrementally add new ones below, 
-  // until we move all our services in root to the respective organization accounts
+  // To avoid accidnetal destroying of existing principals and polict types, we only incrementally add new ones like shown below, 
+  // this is until we move all our services in root to the respective organization accounts
  }
 
-## Demo code only, to be replaced with appriporiate syntax when adding new ones
+## Demo code only, to be replaced with appropriate syntax when adding new ones
 # Safely add new service access principals separately
 # resource "aws_organizations_service_access_principal" "additional" {
 #   for_each = toset(var.additional_service_access_principals)
