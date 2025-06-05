@@ -1,0 +1,1 @@
+## This folder typically contains everything related to the OU hierarchy ie., Organizations, Organization units and accounts.
