@@ -9,5 +9,3 @@
 ## Will visit this back once we want to move all our services in the root account to the respective accounts.
 
 ## we expect individual terraform infra provisioning modules for backend/other services to be in the respective services that you develop with appropriate permissions.
-
-

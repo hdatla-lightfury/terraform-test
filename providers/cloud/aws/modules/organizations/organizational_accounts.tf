@@ -1,3 +1,5 @@
+## Acounts under Level 1 OUs
+## Accounts under shared services OU
 resource "aws_organizations_account" "developer_tools" {
   name      = "developer-tools"
   email     = "dev-tools@lightfurygames.com"
