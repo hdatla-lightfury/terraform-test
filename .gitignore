@@ -1,4 +1,5 @@
 # Local .terraform directories
+**.config
 **/.terraform/*
 **.terraform*
 **.scannerwork*
@@ -33,3 +34,5 @@ override.tf.json
 
 # kubeconfig file for the cluster
 kubeconfig
+
+terraform-plan.txt
